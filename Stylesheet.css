@@ -1,0 +1,47 @@
+body{
+	background-color: turquoise;
+	font-family: "Medieval Sharp", Serif;
+	font-size: 12pt;
+	color: #00008; /* Dark blue for body text */
+	text-align: center; /* Keeps paragraphs aligned */
+}
+h1 {
+	display: inline-block; /* Shrinks width to fit text */
+	background-color: lightblue; /* Background only around text */
+	font-size : 32pt;
+	color: green; /* Bright green text/*
+	padding: 5px 10px; /* Space around the text */
+	margin 20px auto; /* Centers the h1 horizontally */
+	text-align: center; /* Centers text inside the H1 box */
+}
+h2 {
+	text-align: left; /* Keeps paragraph left aligned */
+	background-color: purple; /* purple for background text */
+	color: white; /* white text */
+}
+img {
+	display: block;
+	float: left;
+	margin: 0 15 px 15 px 0;
+}
+p{
+	display: block;
+	float: left;
+	margin: 0 15px 15px 0;
+}
+p.shrt {
+	display: inline-block;
+	background-color: lightyellow;
+	width: 600px;
+	padding: 5 px 10 px;
+	margin: 10 px 0;
+	text-align: center;
+}
+li {
+	text-align: left;
+}
+.row {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
